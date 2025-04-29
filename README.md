@@ -22,8 +22,9 @@ A Docker-based Android APK builder for Python/Kivy applications using Buildozer.
 
 ```bash
 
-git clone https://github.com/YOUR_USERNAME/docker-kivy-apk-builder.git
+git clone https://github.com/deekshith0509/docker-kivy-apk-builder.git
 cd docker-kivy-apk-builder
+
 ```
 
 ### 2. Build the Docker Image
