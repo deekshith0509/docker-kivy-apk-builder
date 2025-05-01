@@ -88,9 +88,6 @@ RUN mkdir -p $ANDROID_SDK_ROOT/tools/bin && \
 
 WORKDIR /app
 
-COPY . /app
-
-RUN test -f buildozer.spec || buildozer init
 
 CMD ["sh", "-c", "echo y | buildozer -v android debug"]
 
